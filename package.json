@@ -1,0 +1,31 @@
+{
+  "name": "chatbot_test",
+  "version": "1.0.0",
+  "description": "chatbot para prueba técnica",
+  "main": "src/server.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node build/server.js",
+    "dev": "ts-node-dev src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fredy Vaquiro",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node-cron": "^3.0.11",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "4.21.2",
+    "mongoose": "^8.9.5",
+    "node-cron": "^3.0.3"
+  }
+}
